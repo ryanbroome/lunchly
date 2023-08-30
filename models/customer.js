@@ -10,6 +10,7 @@ class Customer {
     this.id = id;
     this.firstName = firstName;
     this.lastName = lastName;
+    this.fullName = firstName + " " + lastName;
     this.phone = phone;
     this.notes = notes;
   }
